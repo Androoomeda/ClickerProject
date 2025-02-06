@@ -100,5 +100,5 @@ MonoBehaviour:
   MoveForce: 6
   GravityForce: 9.8
   randomHorizontalVelocity: 1.5
-  MinRotationSpeed: -30
-  MaxRotationSpeed: 30
+  MinRotationSpeed: -10
+  MaxRotationSpeed: 10

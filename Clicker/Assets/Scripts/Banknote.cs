@@ -36,7 +36,11 @@ public class Banknote : MonoBehaviour
 
         Vector3 movementDirection = new Vector3(horizontalVelocity, verticalVelocity, 0);
         transform.position += movementDirection * Time.deltaTime;
-        transform.Rotate(0, 0, randomRotationSpeed * Time.fixedDeltaTime);
+    }
+
+    private void FixedUpdate()
+    {
+        transform.Rotate(0, 0, randomRotationSpeed);
     }
 
     private void OnBecameInvisible()

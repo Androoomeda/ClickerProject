@@ -23,7 +23,7 @@ public class BalanceManager
 
         ++Level;
         AmountPerClick += Mathf.FloorToInt(AmountPerClick * 0.4f);
-        UpgradePrice += Mathf.FloorToInt(UpgradePrice * 0.5f);
+        UpgradePrice += Mathf.FloorToInt(UpgradePrice * 0.6f);
     }
 
     private bool TryTakeMoney(int amount)
